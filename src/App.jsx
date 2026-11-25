@@ -20,7 +20,7 @@ function App() {
         { path: "*", element: <PageNotFound /> },
       ],
     },
-  ]);
+  ], { basename: import.meta.env.BASE_URL });
 
   return (
     <>
