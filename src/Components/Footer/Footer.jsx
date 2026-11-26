@@ -8,8 +8,8 @@ export default function Footer() {
               <div className="card">
                 <div className="card-body text-center">
                   <h3>LOCATION</h3>
-                  <p>2215 John Daniel Drive</p>
-                  <p>Clark, MO 65243</p>
+                  <p>Fayoum, Egypt</p>
+                  <p>Demo address</p>
                 </div>
               </div>
               <div className="card text-white">
@@ -25,18 +25,17 @@ export default function Footer() {
               </div>
               <div className="card">
                 <div className="card-body text-center">
-                  <h3>ABOUT FREELANCER</h3>
+                  <h3>ABOUT</h3>
                   <p>
                     {" "}
-                    Freelance is a free to use, licensed Bootstrap theme created
-                    by Route{" "}
+                    A small React and Bootstrap starter template by Malak Mohamed{" "}
                   </p>
                 </div>
               </div>
             </div>
           </div>
        <div className=" footer1 text-center  ">
-            <p>Copyright © Your Website 2021</p>
+            <p>Start Framework 2026</p>
           </div>
           
     </>

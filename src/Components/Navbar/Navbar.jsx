@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 export default function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg text-white fixed-top " style={{background: "#2C3E50", color: "white"}}> 
+    <nav className="navbar navbar-dark navbar-expand-lg text-white fixed-top" style={{background: "var(--sf-dark)", color: "white"}}> 
       <div className="container">
         <Link className="navbar-brand text-white fw-bolder" to="/">
           Start Framework
@@ -28,7 +28,7 @@ export default function Nav() {
             </li>
             <li className="nav-item">
               <NavLink   className="nav-link text-white fw-bolder " to="/portfolio">
-                PORTFOLIO
+                EXAMPLES
               </NavLink>
             </li>
             <li className="nav-item">

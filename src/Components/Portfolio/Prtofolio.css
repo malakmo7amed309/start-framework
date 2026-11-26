@@ -1,5 +1,5 @@
 .layer {
-    background-color: #1abc9ce6;
+    background-color: color-mix(in srgb,var(--sf-primary) 90%,transparent);
     opacity: 0;
     cursor: pointer;
     transition: .6s opacity;
